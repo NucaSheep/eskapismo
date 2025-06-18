@@ -1,0 +1,162 @@
+p::first-line {
+    line-height: 100%;
+  }
+   
+  /*p::first-letter {
+    color: darkslategrey;
+    background-color: white;
+    font-size: 300%;
+    font-weight: bold;
+    padding: 0.2em 0.1em;
+    margin: 0.2em 0.2em 0 0.1em;
+    border: 2px dashed white;
+    box-shadow: 0 0 0 .1em white;
+    float: left;
+    line-height: 1.5em;
+  }
+   
+  p.mittig::first-letter {
+    line-height: 1.0em;
+    margin: -0.5em 0.2em 0 0.1em;
+  }
+   
+  p.links::first-letter {
+    margin-left: -1.1em;
+  }
+*/
+  @media only screen and (min-width: 900px){
+    body{
+    background-color: black;
+    color: whitesmoke;
+
+  }
+
+  #fs00 {
+    float: left;
+    position: fixed;
+        top: 80px;
+        left: 15%;
+
+}   
+ #poster {
+    max-width: 30%;
+ }    
+  #fieldset {
+    position: absolute;
+        top: 80px;
+        left: 50%;
+}
+
+.fs-img { 
+    max-width: 500px;
+}
+#fs0 {
+    border: 3px solid #fff;
+    min-width: 400px;
+    max-width: 500px;
+    float: top;
+        clear: both;
+
+}
+#fs1 {
+    border: 3px solid #fff;
+    min-width: 400px;
+    max-width: 500px;
+    float: top;
+        clear: both;
+   
+      
+} 
+ 
+  .all{
+    text-align: center;
+  }
+  
+  div.gallery {
+    margin: 12px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 380px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }/*  */
+}
+
+@media only screen and (max-width: 900px){
+    body{
+    background-color: black;
+    color: whitesmoke;
+
+  }
+
+  #fs00 {
+    float: left;
+    position: absolute;
+        top: 80px;
+        left:  5%;
+
+}   
+ #poster {
+    max-width: 90%;
+ }    
+
+  #fieldset {
+    position: absolute;
+        top: 850px;
+}
+.fs-img{
+    max-width: 300px;
+}
+#fs0{
+    border: 3px solid #fff;
+    max-width: 90%;
+    float: top;
+        clear: both;
+
+}
+#fs1{
+    border: 3px solid #fff;
+    max-width: 90%;
+    float: top;
+        clear: both;
+   
+      
+}
+  .all{
+    text-align: center;
+  }
+  
+  div.gallery {
+    margin: 12px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 380px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }/*  */
+}
+  

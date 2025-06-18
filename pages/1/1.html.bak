@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Living in Darkness</title>
+    <link rel="stylesheet" href="./1.css">
+  </head>
+  <style>
+
+    a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+  <body>
+    <div id="fs00">
+        <p >
+            
+                 <img src="./imgs/banner.webp" alt="Livin' In Darkness" id="poster" oncontextmenu="return false">
+         
+         <p>
+         </div>
+  
+    <div id="fieldset">
+  
+
+      <fieldset id="fs0">
+        <legend>June/2025</legend>
+        <h1> Profilbilder</h1>
+
+          
+    
+      </fieldset>
+    </div>
+  </body>
+</html>
